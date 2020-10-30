@@ -106,7 +106,7 @@ features:
     arrowKeyNavigation: true
   propagateNetlifyEnv: true
   rss:
-    enabled: true
+    enabled: false
     title: BooGi Docs
     showIcon: false
     copyright: "2020, Mateusz Filipowicz"

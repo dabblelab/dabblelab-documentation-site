@@ -1,5 +1,6 @@
 ---
 title: 'Alexa Skills Management API'
+order: 3
 ---
 
 # Alexa Skills Management API (SMAPI) SDK Demo for Node.js 
