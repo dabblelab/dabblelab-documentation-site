@@ -16,4 +16,5 @@ export default {
   gray: '#5C6975',
   grayLight: '#AEAEAE',
   grayDark: '#3B4656',
+  dabblelabOrage: '#F65437',
 };

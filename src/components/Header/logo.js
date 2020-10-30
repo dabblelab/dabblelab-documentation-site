@@ -14,7 +14,7 @@ const logoStyle = (theme) => css`
     min-height: 40px;
   }
   img {
-    width: 55px;
+    width: 40px;
     margin-right: 16px;
     display: inline-block;
     ${onTablet} {
