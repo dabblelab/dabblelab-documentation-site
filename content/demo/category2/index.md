@@ -1,8 +1,5 @@
 ---
 title: 'About dabblelab'
-showMetadata: false
-editable: false
-showToc : false
 ---
 
 :wave: Hello!

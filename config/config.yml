@@ -1,8 +1,8 @@
 ---
 metadata:
-  name: BooGi
-  short_name: BooGi
-  description: BooGi - awesome GitBook-like documentation generator using Gatsby
+  name: Dabble Lab
+  short_name: dabble lab
+  description: Tutorials and templates for creating Alexa skills, Google Actions, and Twilio Autopilot bots.
   language: en
   pathPrefix: "/"
   siteImage:
@@ -14,15 +14,16 @@ header:
   logoLink: "/"
   helpUrl: ""
   links:
-    - text: BooGi
-      link: https://github.com/filipowm/boogi
+    - text: TUTORIALS
+      link: https://dabblelab.com/tutorials
       external: true
-    - text: Gatsby
+    - text: TEMPLATES
       link: https://www.gatsbyjs.org
       external: true
-    - text: Docs
-      link: "/"
-      external: false
+    - text: COURSES
+      link: https://dabblelab.com/courses
+      external: true
+
 sidebar:
   enabled: true
   # forcedNavOrder:
@@ -32,30 +33,39 @@ sidebar:
   # expanded:
   groups:
     - order: 1
+      path: "/demo"
+      title: ":rocket: Demo"
+
+    - order: 2
       path: "/gettingstarted"
       title: ":rocket: Getting Started"
-    - order: 2
+
+    - order: 3
       path: "/configuration"
       title: ":wrench: Configuration"
-    - order: 3
+
+    - order: 4
       path: "/editing"
       title: ":writing_hand: Editing Content"
-    - order: 4
+
+    - order: 5
       path: "/deployment"
       title: ":rocket: Deployment"
-    - order: 5
+
+    - order: 6
       path: "/developing"
       title: ":computer: Developing"
+
   links:
-    - text: BooGi
-      link: https://github.com/filipowm/boogi
-    - text: React
-      link: https://reactjs.org
+    - text: Visit YouTube channel
+      link: https://www.youtube.com/channel/UCfY-LopSxGekh9LruXLjffg
+    - text: Visit GitHub 
+      link: https://github.com/dabblelab
   ignoreIndex: false
-  poweredBy:
-    trademark: "/assets/gatsby.png"
-    name: GatsbyJS
-    link: https://www.gatsbyjs.org
+  # poweredBy:
+  #   trademark: "/assets/gatsby.png"
+  #   name: GatsbyJS
+  #   link: https://www.gatsbyjs.org
 pwa:
   enabled: true
   manifest:
@@ -64,16 +74,16 @@ pwa:
     icon: "/assets/favicon.png"
 
 social:
-  github: https://github.com/filipowm/boogi
-  linkedin: https://www.linkedin.com/in/mateusz-filipowicz-437b4768/
-  twitter: twitter url
+  github: https://github.com/dabblelab
+  linkedin: https://www.linkedin.com/company/dabblelab
+  twitter: https://twitter.com/dabblelab
 
 features:
   darkMode:
     enabled: true  
     default: false
   editOnRepo:
-    location: https://github.com/filipowm/boogi 
+    location: https://github.com/dabblelab/dabblelab-documentation-site 
     type: github
     editable: true
   mermaid:
