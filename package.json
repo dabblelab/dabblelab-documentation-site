@@ -1,8 +1,8 @@
 {
-  "name": "BooGi",
-  "description": "Generate GitBook-like modern docs/tutorial websites using Gatsby",
-  "author": "Mateusz Filipowicz <matfilipowicz@gmail.com>",
-  "homepage": "https://boogi.netlify.app/",
+  "name": "dabblelab",
+  "description": "Tutorials and templates for creating Alexa skills, Google Actions, and Twilio Autopilot bots.",
+  "author": "Shubham Prakash <shubham.prakash2308@gmail.com>",
+  "homepage": "http://dabblelab.com/",
   "keywords": [
     "gatsby",
     "gatsby-starter",

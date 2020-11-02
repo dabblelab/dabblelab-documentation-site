@@ -5,15 +5,15 @@ import { increaseIntensivity, decreaseIntensivity, grayscaleCompatible } from '.
 const colors = {
   ...defaultColors,
 
-  primary: defaultColors.dabblelabOrage,
-  primaryDark: defaultColors.dabblelabOrage,
+  primary: defaultColors.orange,
+  primaryDark: defaultColors.orange,
   fontLight: '#efefef',
   font: '#dddddd',
   fontDark: '#8a8a8a',
   background: '#29282A',
   mainBackground: '#1E1E1F',
   border: '#323234',
-  hover: defaultColors.dabblelabOrage,
+  hover: defaultColors.orange,
   shadow: defaultColors.gray + '33',
 };
 
