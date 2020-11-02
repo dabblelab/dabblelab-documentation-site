@@ -14,8 +14,8 @@ header:
   logoLink: "/"
   helpUrl: ""
   links:
-    - text: TUTORIALS
-      link: https://dabblelab.com/tutorials
+    - text: DEMO
+      link: /demo
       external: true
     - text: TEMPLATES
       link: https://www.gatsbyjs.org
@@ -34,10 +34,10 @@ sidebar:
   groups:
     - order: 1
       path: "/demo"
-      title: ":rocket: Demo"
+      title: ":rocket: Learning"
 
     - order: 2
-      path: "/gettingstarted"
+      path: "/blog"
       title: ":rocket: Getting Started"
 
     - order: 3
@@ -58,7 +58,7 @@ sidebar:
 
   links:
     - text: Visit YouTube channel
-      link: https://www.youtube.com/channel/UCfY-LopSxGekh9LruXLjffg
+      link: https://www.youtube.com/dabblelab
     - text: Visit GitHub 
       link: https://github.com/dabblelab
   ignoreIndex: false
@@ -109,9 +109,9 @@ features:
     enabled: false
     title: BooGi Docs
     showIcon: false
-    copyright: "2020, Mateusz Filipowicz"
-    webMaster: "Mateusz Filipowicz"
-    managingEditor: "Mateusz Filipowicz"
+    copyright: "2020 Dabble Lab"
+    webMaster: "Dabble Lab"
+    managingEditor: "Dabble Lab"
     categories:
       - Docs as Code
       - GatsbyJS
