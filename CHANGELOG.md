@@ -1,3 +1,7 @@
+## [1.0.7](https://github.com/dabblelab/dabblelab-documentation-site/compare/v1.0.6...v1.0.7) (2020-11-02)
+
+
+
 ## [1.0.6](https://github.com/dabblelab/dabblelab-documentation-site/compare/v1.0.5...v1.0.6) (2020-11-02)
 
 
