@@ -229,11 +229,21 @@ const Header = ({ setShowSearch, location, themeProvider, show, toggleFullscreen
         },
       } = data;
       const logoLink = logo.link !== '' ? logo.link : '/';
-      const logoImg = require('images/logo.svg');
+      const logoImgDark = require('images/logo-dark.svg');
+      const logoImgLight = require('images/logo-light.svg');
+
+      const [logoImg, setLogoImg] = useState(logoImgDark);
       const [darkMode, setDarkMode] = useState(false);
+
+
       useEffect(() => {
         setDarkMode(themeProvider.current.retrieveActiveTheme());
       });
+
+      useEffect(() => {
+        // update the logo when the theme changes
+        setLogoImg(darkMode ? logoImgLight : logoImgDark);
+      },[darkMode]);
 
       const open = () => {
         setShowSearch(true);
