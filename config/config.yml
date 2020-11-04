@@ -16,13 +16,13 @@ header:
   links:
     - text: DEMO
       link: /demo
-      external: true
+      external: false
     - text: TEMPLATES
-      link: https://www.gatsbyjs.org
-      external: true
+      link: /templates
+      external: false
     - text: COURSES
-      link: https://dabblelab.com/courses
-      external: true
+      link: /courses
+      external: false
 
 sidebar:
   enabled: true
@@ -33,16 +33,16 @@ sidebar:
   # expanded:
   groups:
     - order: 1
-      path: "/demo"
-      title: ":rocket: Learning"
+      path: "/training"
+      title: "Technical Training"
 
     - order: 2
-      path: "/blog"
-      title: ":rocket: Getting Started"
+      path: "/tools"
+      title: "Developer Tools"
 
     - order: 3
-      path: "/configuration"
-      title: ":wrench: Configuration"
+      path: "/services"
+      title: "Support Services"
 
     - order: 4
       path: "/editing"
@@ -80,7 +80,7 @@ social:
 
 features:
   darkMode:
-    enabled: true  
+    enabled: false  
     default: false
   editOnRepo:
     location: https://github.com/dabblelab/dabblelab-documentation-site 
@@ -107,14 +107,14 @@ features:
   propagateNetlifyEnv: true
   rss:
     enabled: false
-    title: BooGi Docs
+    title: Dabble Lab
     showIcon: false
     copyright: "2020 Dabble Lab"
     webMaster: "Dabble Lab"
     managingEditor: "Dabble Lab"
     categories:
-      - Docs as Code
-      - GatsbyJS
+      - Amazon Alexa
+      - Twilio Autopilot
     ttl: 60
     matchRegex: "^/"
     outputPath: "/rss.xml"
