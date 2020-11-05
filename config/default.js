@@ -5,7 +5,7 @@ module.exports = {
     description: '',
     language: 'en',
     url: 'http://localhost',
-    pathPrefix: '/',
+    pathPrefix: '/dabblelab-documentation-site',
     gaTrackingId: null,
     siteImage: null,
     favicon: '/assets/favicon.png',

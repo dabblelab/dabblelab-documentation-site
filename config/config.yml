@@ -4,7 +4,7 @@ metadata:
   short_name: dabble lab
   description: Tutorials and templates for creating Alexa skills, Google Actions, and Twilio Autopilot bots.
   language: en
-  pathPrefix: "/"
+  pathPrefix: "/dabblelab-documentation-site"
   siteImage:
   favicon: "/assets/favicon.png"
   themeColor: "#ff0000"
